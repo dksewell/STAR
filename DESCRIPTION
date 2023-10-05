@@ -1,0 +1,13 @@
+Package: STAR
+Type: Package
+Title: Simultaneous and Temporal Autoregressive Network Models
+Version: 1.1
+Date: 2016-10-18
+Author: Daniel K. Sewell, Amy Hahn
+Maintainer: Daniel K. Sewell <daniel-sewell@uiowa.edu>
+Description: Link prediction for temporal networks.  This package implements the simultaneous and temporal dependence autoregressive models for dynamic networks.
+License: GPL (>= 2)
+Imports: Rcpp (>= 0.12.3), matrixcalc, Matrix, mvtnorm, truncnorm, MCMCpack
+LinkingTo: Rcpp, RcppArmadillo
+Depends: R (>= 3.2.3)
+LazyData: true
